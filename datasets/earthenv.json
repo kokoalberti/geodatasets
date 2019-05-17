@@ -1,0 +1,64 @@
+{
+    "earthenv": {
+        "name": "EarthEnv",
+        "descr": "",
+        "url": "http://www.earthenv.org",
+        "datasets": [
+            {
+                "name": "EarthEnv Global Habitat Heterogeneity",
+                "descr": "Based on MODIS EVI product.",
+                "type": "raster",
+                "coverage": "global",
+                "year": "",
+                "resolution": "1000",
+                "url": "http://www.earthenv.org/texture",
+                "license": "",
+                "tags": ["earthenv", "habitat", "modis"]
+            },
+            {
+                "name": "EarthEnv Global Consensus Landcover",
+                "descr": "Consensus between common landcover datasets.",
+                "type": "raster",
+                "coverage": "global",
+                "year":"",
+                "resolution": "1000",
+                "url": "http://www.earthenv.org/landcover",
+                "license":"",
+                "tags": ["earthenv", "landcover", "consensus"]
+            },
+            {
+                "name": "EarthEnv Global Cloud Cover Climatology",
+                "descr": "Inter-annual variability, monthly/annual mean, spatial variability",
+                "type": "raster",
+                "coverage": "global",
+                "year":"",
+                "resolution": "1000",
+                "url": "http://www.earthenv.org/cloud",
+                "license": "",
+                "tags": ["earthenv", "cloud", "climatology"]
+            },
+            {
+                "name": "EarthEnv Global Digital Elevation Model",
+                "descr": "Global DEM based on CGIAR SRTM and ASTER GDEM",
+                "type": "raster",
+                "coverage": "global",
+                "year": "",
+                "resolution": "90",
+                "url": "http://www.earthenv.org/DEM",
+                "license": "",
+                "tags": ["earthenv", "dem", "elevation", "srtm", "gdem"]
+            },
+            {
+                "name": "EarthEnv Freshwater Ecosystems Data",
+                "descr": "Global data along upstream networks based on HydroSheds. Info on climate, topo, land cover, geology, and soils.",
+                "type": "raster",
+                "coverage": "global",
+                "year": "",
+                "resolution": "1000",
+                "url": "http://www.earthenv.org/streams",
+                "license": "",
+                "tags": ["earthenv", "freshwater", "streams", "hydrosheds", "river"]
+            }
+        ]
+    }
+}
